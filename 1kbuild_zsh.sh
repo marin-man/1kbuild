@@ -59,7 +59,7 @@ brew install lazygit zoxide ripgrep fd yarn unzip neovim
 # [[ tree-sitter ]]
 brew install tree-sitter
 yarn global add tree-sitter-cli
-# cargo install tree-sitter-cli
+cargo install tree-sitter-cli
 
 # [[ nvimdots ]]
 if command -v curl >/dev/null 2>&1; then
@@ -74,3 +74,5 @@ git reset --hard my/main
 
 echo "source ~/.my_zshrc" >>~/.zshrc
 source ~/.zshrc
+
+exit 0
